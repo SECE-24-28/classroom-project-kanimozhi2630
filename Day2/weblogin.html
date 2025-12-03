@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stationery Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f5f7f9;
+        }
+
+        /* HEADER */
+        #header {
+            background-color: #004e98;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        /* LOGIN BUTTON */
+        #login-btn {
+            background-color: green;
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        /* SECTIONS */
+        .section {
+            background-color: rgb(123, 195, 247);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #000000;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #01080e;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        /* PRODUCT BOXES */
+        .product {
+            background-color: #fcfdff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #004e98;
+        }
+
+        .product strong {
+            color: #0555a0;
+        }
+
+        /* SMALL IMAGES INLINE */
+        .img-row img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #004e98;
+        }
+
+        /* FOOTER */
+        #footer {
+            background-color: #0959a3;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+        Stationary Shop
+        <a href="login.html" id="login-btn">Login</a>
+    </div>
+
+    <div class="section">
+        <div class="title">About Us</div>
+        <p>Welcome to Stationery! We provide all types of school, office, and art supplies at affordable prices.</p>
+    </div>
+
+    <div class="section">
+        <div class="title">Our Products</div>
+
+        <!-- Pens & Pencils -->
+        <div class="product">
+            <strong>Pens & Pencils</strong>
+            <p>Gel pens, ball pens, mechanical pencils, HB pencils and more.</p>
+
+            <div class="img-row">
+                <img src="pen1.jpg">
+                <img src="pen2.jpg">
+                <img src="pen3.jpg">
+            </div>
+        </div>
+
+        <!-- Notebooks -->
+        <div class="product">
+            <strong>Notebooks</strong>
+            <p>Class notebooks, long notebooks, diaries, journals, and planners.</p>
+
+            <div class="img-row">
+                <img src="note1.jpg">
+                <img src="note2.jpg">
+                <img src="note3.jpg">
+            </div>
+        </div>
+
+        <!-- Art Supplies -->
+        <div class="product">
+            <strong>Art Supplies</strong>
+            <p>Crayons, sketch pens, paint colors, brushes, and canvas boards.</p>
+        </div>
+
+        <!-- Office Items -->
+        <div class="product">
+            <strong>Office Items</strong>
+            <p>Files, folders, staplers, markers, sticky notes, and more.</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <div class="title">Contact</div>
+        <p><strong>Email:</strong> bluepenstationery@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Address:</strong> 23, Station Road, Coimbatore</p>
+    </div>
+
+    <div id="footer">BluePen Stationery — All Rights Reserved</div>
+
+</body>
+</html>
